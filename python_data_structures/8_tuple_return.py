@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 def tuple_return(arg):
-    if len(arg) == 0:
-        return arg.append(None)
+    if (len_arg := len(arg)) == 0:
+        first_el = None
     else:
-        return len(arg), arg[0]
+        first_el = arg[0]
+    return len_arg, first_el

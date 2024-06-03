@@ -1,1 +1,40 @@
 
+0 - //ul[@class='vl-flyout-nav__container']/li/a
+
+1 - //ul[@class='x-refine__left__nav']/li[@class='x-refine__main__list ']
+
+2 - //ul[@class='x-refine__left__nav']/li[@class='x-refine__main__list ']//div[text()='US Shoe Size']
+    //ul[@class='x-refine__left__nav']/li[@class='x-refine__main__list ']//div[text()='Brand']
+    //ul[@class='x-refine__left__nav']/li[@class='x-refine__main__list ']//div[text()='Color']
+    //ul[@class='x-refine__left__nav']/li[@class='x-refine__main__list ']//div[text()='Upper Material']
+    //ul[@class='x-refine__left__nav']/li[@class='x-refine__main__list ']//div[text()='Occasion']
+    //ul[@class='x-refine__left__nav']/li[@class='x-refine__main__list ']//div[text()='Department']
+    //ul[@class='x-refine__left__nav']/li[@class='x-refine__main__list ']//div[text()='Condition']
+    //ul[@class='x-refine__left__nav']/li[@class='x-refine__main__list ']//div[text()='Price']
+    //ul[@class='x-refine__left__nav']/li[@class='x-refine__main__list ']//div[text()='Buying Format']
+    //ul[@class='x-refine__left__nav']/li[@class='x-refine__main__list ']//div[text()='Item Location']
+    //ul[@class='x-refine__left__nav']/li[@class='x-refine__main__list ']//div[text()='Delivery Options']
+    //ul[@class='x-refine__left__nav']/li[@class='x-refine__main__list ']//div[text()='Local Pickup']
+    //ul[@class='x-refine__left__nav']/li[@class='x-refine__main__list ']//div[text()='Show only']
+ 
+3 - //div[text() = 'US Shoe Size']/ancestor::li[@class = 'x-refine__main__list ']//input[contains(@class, "checkbox") and @aria-label = '10']
+    //div[text() = 'Brand']/ancestor::li[@class = 'x-refine__main__list ']//input[contains(@class, "checkbox") and @aria-label = 'adidas']
+    //div[text()='Color']/ancestor::li[@class = 'x-refine__main__list ']//input[contains(@class, "checkbox") and @aria-label = 'Blue']
+    //div[text()='Upper Material']/ancestor::li[@class = 'x-refine__main__list ']//input[contains(@class, "checkbox") and @aria-label = 'Leather']
+    //div[text()='Occasion']/ancestor::li[@class = 'x-refine__main__list ']//input[contains(@class, "checkbox") and @aria-label = 'Activewear']
+    //div[text()='Department']/ancestor::li[@class = 'x-refine__main__list ']//input[contains(@class, "checkbox") and @aria-label = 'Teens']
+    //div[text()='Condition']/ancestor::li[@class = 'x-refine__main__list ']//input[contains(@class, "checkbox") and @aria-label = 'Pre-owned']
+    //div[text()='Price']/ancestor::li[@class = 'x-refine__main__list ']//input[contains(@class, "checkbox") and @aria-label = 'Over $70.00']
+    //div[text()='Buying Format']/ancestor::li[@class = 'x-refine__main__list ']//input[contains(@class, "radio") and @data-value="Buy It Now"]
+    //div[text()='Item Location']/ancestor::li[@class = 'x-refine__main__list ']//input[contains(@class, "radio") and @data-value="US Only"]
+    //div[text()='Delivery Options']/ancestor::li[@class = 'x-refine__main__list ']//input[contains(@class, "checkbox") and @aria-label = 'Free Shipping']
+    //div[text()='Show only']/ancestor::li[@class = 'x-refine__main__list ']//input[contains(@class, "checkbox") and @aria-label = 'Returns Accepted']
+
+4 - //div[@class = 's-item__title']
+    //div[@class = 's-item__wrapper clearfix']//span[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'servis cheetah high top trainers white yellow green shoes afghani tali style')]
+
+5 - //div[@id='gh-eb-My-o']//a
+    To pause Chrome Browser execution you need to navigate to Inspect Page Panel/Sources. 
+    In the right corner you need to find and click "Play/Pause" button or use shortcut
+    (Command + /, on macOS)
+
